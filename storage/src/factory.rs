@@ -15,6 +15,7 @@ use std::fs::File;
 use std::hash::{Hash, Hasher};
 use std::io::Result as IOResult;
 use std::sync::{Arc, Mutex};
+use std::sync::{Arc, Mutex};
 
 use anyhow::{Context, Result};
 use serde::Deserialize;
